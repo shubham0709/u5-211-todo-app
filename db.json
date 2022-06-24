@@ -1,24 +1,3 @@
 {
-  "todos": [
-    {
-      "id": 1,
-      "data": "chess",
-      "isCompleted": false
-    },
-    {
-      "data": "i am here",
-      "isCompleted": false,
-      "id": 5
-    },
-    {
-      "data": "counter and todo",
-      "isCompleted": false,
-      "id": 6
-    },
-    {
-      "data": "new todo",
-      "isCompleted": false,
-      "id": 7
-    }
-  ]
+  "todos": []
 }
