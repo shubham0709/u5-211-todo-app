@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { updateTodo } from "../store/todo/todo.action";
 import { useDispatch } from "react-redux";
 
@@ -14,12 +14,14 @@ const Edit = () => {
   };
   return (
     <div>
-      Edit : {id}
       <input
         placeholder="type here..."
         onChange={(e) => setVal(e.target.value)}
       />
       <button onClick={updateHandler}>Update todo</button>
+      <Link to="/">
+        <button>Home</button>
+      </Link>
     </div>
   );
 };

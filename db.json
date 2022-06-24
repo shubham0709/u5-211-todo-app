@@ -1,3 +1,29 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "4901769c-52bc-430c-a47a-31692dc41fde",
+      "data": "shubham barore",
+      "isCompleted": false
+    },
+    {
+      "id": "54d88277-baaa-4cbf-b66c-8de7086a1f25",
+      "data": "laptop",
+      "isCompleted": true
+    },
+    {
+      "id": "86f80ea0-7dfc-483f-9d9b-64b910df61ef",
+      "data": "basketball",
+      "isCompleted": false
+    },
+    {
+      "id": "0d09e928-ce49-4ba1-bcff-9c2cac8a70b8",
+      "data": "chess",
+      "isCompleted": false
+    },
+    {
+      "id": "14390775-126e-4b4f-b597-fdd7273f5c4f",
+      "data": "not a todo",
+      "isCompleted": false
+    }
+  ]
 }
